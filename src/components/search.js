@@ -6,7 +6,7 @@ export default class Search extends React.Component {
         super(props);
         this.state = {
             filter: [],
-            filterData: " "
+            filterData: ""
         };
         this.handleSearch = this.handleSearch.bind(this);
         this.toBeSearch = this.toBeSearch.bind(this);
