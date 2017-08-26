@@ -8,7 +8,7 @@ export default class Header extends React.Component {
                 <nav className="navbar navbar-inverse navbar-fixed-top" role="navigation">
                     <div className="container">
                         <div className="navbar-header">
-                            <p className="navbar-brand">Image Gallery</p>
+                            <a className="navbar-brand">Image Gallery</a>
                         </div>
                         <div className="collapse navbar-collapse">
                             <ul className="nav navbar-nav">
