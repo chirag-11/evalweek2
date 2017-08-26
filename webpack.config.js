@@ -44,13 +44,13 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             title: 'My App',
-            template: path.join(__dirname, 'src', 'index.html')
-        }),  
-        new  webpack.DefinePlugin({       
-            'process.env':  {         
-                'NODE_ENV':  JSON.stringify('production')       
-            }     
-        }),  new webpack.HotModuleReplacementPlugin(),
+            template: path.join(__dirname, 'src','index.html')
+        }),
+            new webpack.DefinePlugin({
+            'process.env':{
+           'NODE_ENV':JSON.stringify('production')
+        }
+        }),new webpack.HotModuleReplacementPlugin(),
 
     ]
 };
