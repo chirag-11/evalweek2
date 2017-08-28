@@ -3,8 +3,10 @@
 
 Image Gallery
 the project is about several country with their flags and their capital
-
+the project will run on localhost:3000
 getting started
+
+npm install
 
 to start the project in production mode 
  enter cli command
